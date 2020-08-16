@@ -1,18 +1,10 @@
-
-
 const express = require('express');
-
+const opportunityController = require('./controller/opportunityController');
+// const opportunity = require('./models/integrationBlingModel');
 const routes = express.Router();
 
-//list All ongs
+routes.get('/opportunitys',opportunityController.index)
 
-
-
-// listando dados consolidados da collection do mongo db
-// routes.get('/profile', profileController.index);
-
-//login
-// routes.post('/login', sessionController.create);
- 
+routes.post('/opportunitys/add',opportunityController.add)
 
 module.exports = routes;
