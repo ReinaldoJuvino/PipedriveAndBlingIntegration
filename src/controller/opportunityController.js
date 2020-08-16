@@ -1,11 +1,10 @@
-const router = require("express").Router();
-const opportunity = require('../models/integrationBlingModel')
+const opportunity = require('../models/opportunityModel')
 
 module.exports = {
 
     async index(request, response){
         await opportunity.find()
-            .then(opportunitys => response.json(opportunitys))
+            .then(opportunities => response.json(opportunities))
             .catch(err => response.status(400).json(`Error ${err}`))
     }, 
     add(request, response){
