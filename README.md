@@ -20,7 +20,7 @@
 ```
 git clone https://github.com/ReinaldoJuvino/PipedriveAndBlingIntegration.git
 ```
-2. Execute o seguinte comando para instalação das dependecias:  :arrow_down:
+2. Execute o seguinte comando para instalação das dependências:  :arrow_down:
 
 ```
 npm install
@@ -34,19 +34,19 @@ npm start
 
 ## O que a plataforma é capaz de fazer. :checkered_flag:
 
-:trophy: Acessa automaticamento a base de dados do Pipedrive e salva negociações marcadas com status igual ganho
+:trophy: Acessa automaticamente a base de dados do Pipedrive e salva negociações marcadas com status igual ganho
 
-:trophy: Não permite que uma negociação sejá adicionada duas vezes. 
+:trophy: Não permite que uma negociação seja adicionada duas vezes. 
 
 ### Requisitos cumpridos
 
-> Integração com a plataforma pipedrive: Concluido :heavy_check_mark:
+> Integração com a plataforma pipedrive: Concluído :heavy_check_mark:
 
-> integração com o bling: Não concluida: :x:
+> integração com o bling: Não concluída: :x:
 
-> Conexão com o MongoDB Atlas: Concluido :heavy_check_mark:
+> Conexão com o MongoDB Atlas: Concluído :heavy_check_mark:
 
-> Armazenamento dos dados provindo das requisições a o Pipedrive : Concluido :heavy_check_mark:
+> Armazenamento dos dados provindo das requisições a o Pipedrive : Concluído :heavy_check_mark:
 
-> Versionamento Git: Concluido :heavy_check_mark:
+> Versionamento Git: Concluído :heavy_check_mark:
 
