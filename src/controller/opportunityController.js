@@ -1,7 +1,6 @@
 const opportunity = require('../models/opportunityModel')
 
 module.exports = {
-
     async index(request, response){
         await opportunity.find()
             .then(opportunities => response.json(opportunities))

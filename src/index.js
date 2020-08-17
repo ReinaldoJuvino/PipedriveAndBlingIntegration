@@ -4,9 +4,6 @@ const routes = require('./routes');
 const opportunityController = require('./controller/opportunityController');
 const pipedriveService = require('./services/pipedriveService')
 
-
-
-
 const app = express();
 app.use(express.json());
 app.use(routes);
@@ -21,5 +18,4 @@ connection.once('open',()=>{
   console.log("Conexão estabelecida");
 })
 
- 
-app.listen(3333) 
+app.listen(3333) ;
